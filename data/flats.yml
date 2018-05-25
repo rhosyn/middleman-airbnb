@@ -1,0 +1,23 @@
+rhosyn:
+  name: "Bridget's home"
+  gh_username: "rhosyn"
+  description: "Charming room in Canggu"
+  city_name: "Canggu, Bali"
+  city_slug: "bali"
+  wifi: false
+  rating: 4
+bdlb77:
+  name: "Bryan's home"
+  gh_username: bdlb77
+  description: Small flat in Tokyo
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  wifi: true
+  rating: 3
+jasonhbegleiter:
+  name: "Jason's home"
+  gh_username: jasonhbegleiter
+  description: Nice flat in Piccadilly
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true

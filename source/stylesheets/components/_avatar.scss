@@ -4,4 +4,25 @@
 
 .avatar-team {
   padding: 30px;
+  display: flex;
+  justify-content: space-around;
 }
+
+.avatar-ind {
+  text-decoration: none;
+  color: $dark-gray;
+  font-size: 13px;
+  a {
+    text-decoration: none;
+    color: $dark-gray;
+  }
+  &:hover {
+    color: $gray;
+    text-decoration: none;
+  }
+  &:hover a {
+    color: $gray;
+    text-decoration: none;
+  }
+}
+

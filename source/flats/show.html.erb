@@ -1,0 +1,19 @@
+---
+title: View your flat
+---
+
+<%= partial "bannersml" %>
+
+
+<div class="flat-owner">
+  <div class="flat-name text-center">
+
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{data.flats[owner].gh_username}", class: "img-circle avatar" %>
+        <h5><%= data.flats[owner].gh_username %></h5>
+
+  </div>
+  <div class="flat-body">
+    <p><strong><%= data.flats[owner].description %></strong></p>
+    <p><%= data.flats[owner].city_name %></p>
+  </div>
+</div>
