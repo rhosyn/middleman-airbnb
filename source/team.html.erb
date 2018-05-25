@@ -1,0 +1,13 @@
+---
+title: Rhosyn's page -- My Team
+---
+<div class = avatar-team>
+  <ul class="list-inline text-center">
+    <% %w(rhosyn bdlb77 jasonhbegleiter).each do |gh_username| %>
+    <li>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle avatar" %>
+      <h5><%= gh_username.capitalize %></h5>
+    </li>
+    <% end %>
+  </ul>
+</div>
